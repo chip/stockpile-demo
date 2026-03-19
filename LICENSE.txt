@@ -1,0 +1,98 @@
+PROPRIETARY SOFTWARE LICENSE AGREEMENT
+
+Copyright (c) 2026 Chip Castle Dot Com, Inc. (a Florida S-Corp). All rights
+reserved.
+
+This software and associated documentation files (the "Software") are
+proprietary and confidential. By purchasing and using this Software, you agree
+to be bound by the terms of this license agreement.
+
+GRANT OF LICENSE
+
+Subject to the terms of this Agreement and upon payment of the applicable
+license fee, you are granted a non-exclusive, non-transferable license to:
+
+- Install and use the Software on up to 3 devices that you personally own or
+  control
+- Use the Software for personal or commercial purposes
+- Use within a single organization/company (requires separate licenses for
+  different organizations)
+- Receive updates and bug fixes during the license period
+
+RESTRICTIONS
+
+You may NOT:
+
+- Distribute, sublicense, lease, rent, loan, or sell the Software or license
+  keys
+- Modify, reverse engineer, decompile, or disassemble the Software
+- Remove or alter any proprietary notices, labels, or marks on the Software
+- Share your license key with others or use it on more than a reasonable number
+  of your own devices
+- Use the Software to create a competing product or service
+- Publish or share the source code publicly
+
+OWNERSHIP
+
+This is a license agreement, not a sale. Chip Castle Dot Com, Inc. retains all
+right, title, and interest in and to the Software, including all intellectual
+property rights. Your license does not grant you any ownership rights.
+
+UPDATES AND SUPPORT
+
+- Updates and bug fixes are provided at the discretion of Chip Castle Dot Com,
+  Inc.
+- Technical support is provided on a best-effort basis via email
+- Chip Castle Dot Com, Inc. reserves the right to discontinue updates at any
+  time
+
+TERMINATION
+
+This license is effective until terminated. Your rights under this license will
+terminate automatically without notice if you fail to comply with any of its
+terms. Upon termination, you must destroy all copies of the Software in your
+possession.
+
+WARRANTY DISCLAIMER
+
+THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS
+OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+
+Chip Castle Dot Com, Inc. DOES NOT WARRANT THAT THE SOFTWARE WILL MEET YOUR
+REQUIREMENTS OR THAT THE OPERATION OF THE SOFTWARE WILL BE UNINTERRUPTED OR
+ERROR-FREE.
+
+LIMITATION OF LIABILITY
+
+IN NO EVENT SHALL Chip Castle Dot Com, Inc. BE LIABLE FOR ANY SPECIAL,
+INCIDENTAL, INDIRECT, OR CONSEQUENTIAL DAMAGES WHATSOEVER (INCLUDING, WITHOUT
+LIMITATION, DAMAGES FOR LOSS OF BUSINESS PROFITS, BUSINESS INTERRUPTION, LOSS
+OF BUSINESS INFORMATION, OR ANY OTHER PECUNIARY LOSS) ARISING OUT OF THE USE OF
+OR INABILITY TO USE THE SOFTWARE, EVEN IF Chip Castle Dot Com, Inc. HAS BEEN
+ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+IN ANY CASE, Chip Castle Dot Com, Inc.'S ENTIRE LIABILITY UNDER ANY PROVISION
+OF THIS AGREEMENT SHALL BE LIMITED TO THE AMOUNT ACTUALLY PAID BY YOU FOR THE
+SOFTWARE.
+
+GOVERNING LAW
+
+This Agreement shall be governed by and construed in accordance with the laws
+of the state of Florida, USA, without regard to its conflict of law provisions.
+
+ENTIRE AGREEMENT
+
+This Agreement constitutes the entire agreement between you and Chip Castle Dot
+Com, Inc. concerning the Software and supersedes all prior or contemporaneous
+oral or written communications, proposals, and representations with respect to
+the Software.
+
+CONTACT
+
+For questions about this license or the Software:
+Email: chip@chipcastle.com
+Website: https://www.chipcastle.com
+
+BY INSTALLING OR USING THE SOFTWARE, YOU ACKNOWLEDGE THAT YOU HAVE READ THIS
+AGREEMENT, UNDERSTAND IT, AND AGREE TO BE BOUND BY ITS TERMS AND CONDITIONS.
