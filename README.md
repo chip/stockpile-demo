@@ -1,6 +1,7 @@
 # Stockpile
 
 A terminal UI application for managing and tracking software packages on macOS.
+Linux support coming soon.
 
 ## Demo
 
@@ -75,6 +76,8 @@ A terminal UI application for managing and tracking software packages on macOS.
 - RatatuiRuby gem (1.4.1+)
 
 ## Installation
+
+**AFTER LICENSE PURCHASE** (buy now button coming soon)
 
 ### Quick Install
 
