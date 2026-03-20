@@ -27,6 +27,8 @@ Linux support coming soon.
 
 ### Upgrade all brew packages with r key
 
+*(Press c key to cancel upgrade)*
+
 ![Upgrade all brew packages with r key](./assets/demo-upgrade-all.gif)
 
 ### Upgrade single brew package with U key (Use u key to check if new version is available)
