@@ -167,19 +167,6 @@ Debug logging captures:
 - Performance metrics
 - Any errors or unexpected behavior
 
-## Development
-
-See [DEVELOPMENT.md](DEVELOPMENT.md) for:
-- Project structure and architecture
-- Adding new package detectors
-- Adding new views
-- Code style guidelines
-- Error handling patterns
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
 ## License
 
 see [LICENSE.txt](LICENSE.txt) file for details
