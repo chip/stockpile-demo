@@ -19,7 +19,9 @@ Linux support coming soon.
 
 ![Filter package listing with /](./assets/demo-filter.gif)
 
-### View package details (Press Enter key for selected package)
+### View package details
+
+*(Press Enter key for selected package)*
 
 ![View package details](./assets/demo-details.gif)
 
