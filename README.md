@@ -5,37 +5,41 @@ Linux support coming soon.
 
 ## Demo
 
-### Help with ? key
+### Help with `?` key
 
 ![Help with ? key](./assets/demo-help.gif)
 
-### Navigation with j and k keys
+### Navigation with `j` and `k` keys
 
 ![Navigation with j and k keys](./assets/demo-nav.gif)
 
-### Filter package listing with /
+### Filter package listing with `/`
 
-*(Type search term after forward slash)*
+* Type search term after forward slash.
 
 ![Filter package listing with /](./assets/demo-filter.gif)
 
 ### View package details
 
-*(Press Enter key for selected package)*
+* Press `Enter` key for selected package.
 
 ![View package details](./assets/demo-details.gif)
 
-### Upgrade all brew packages with r key
+### Upgrade all brew packages with `r` key
 
-*(Press c key to cancel upgrade)*
+* Press `c` key to cancel upgrade.
 
 ![Upgrade all brew packages with r key](./assets/demo-upgrade-all.gif)
 
-### Upgrade single brew package with U key (Use u key to check if new version is available)
+### Upgrade single brew package with `U` key
 
-![Upgrade single brew package with U key (Use u key to check if new version is available)](./assets/demo-upgrade-package.gif)
+* The `u` key will check if a new package version is **available for update**.
 
-### Run brew info from package details view
+* The `U` key (`Shift-u`) is for **upgrading the package**.
+
+![Upgrade single brew package with U key](./assets/demo-upgrade-package.gif)
+
+### Run `brew info` from package details view
 
 ![Run brew info from package details view](./assets/demo-brew-info.gif)
 
@@ -43,7 +47,7 @@ Linux support coming soon.
 
 ![Uninstall brew package with x key](./assets/demo-uninstall.gif)
 
-### Rebuild package registry with R key
+### Rebuild package registry with `R` key
 
 ![Rebuild package registry with R key](./assets/demo-rebuild-registry.gif)
 
