@@ -13,7 +13,9 @@ Linux support coming soon.
 
 ![Navigation with j and k keys](./assets/demo-nav.gif)
 
-### Filter package listing with / (followed by search term)
+### Filter package listing with /
+
+*(Type search term after forward slash)*
 
 ![Filter package listing with /](./assets/demo-filter.gif)
 
