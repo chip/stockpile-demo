@@ -3,6 +3,11 @@
 A terminal UI application for managing and tracking software packages on macOS.
 Linux support coming soon.
 
+## Purchase
+
+<script src="https://gumroad.com/js/gumroad.js"></script>
+<a class="gumroad-button" href="https://chipcastledotcom.gumroad.com/l/stockpile" data-gumroad-overlay-checkout="true">Buy on</a>
+
 ## Demo
 
 ### Help with `?` key
