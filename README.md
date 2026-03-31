@@ -5,8 +5,9 @@ Linux support coming soon.
 
 ## Purchase
 
-<script src="https://gumroad.com/js/gumroad.js"></script>
-<a class="gumroad-button" href="https://chipcastledotcom.gumroad.com/l/stockpile" data-gumroad-overlay-checkout="true">Buy on</a>
+<a href="https://chipcastledotcom.gumroad.com/l/stockpile" alt="Buy Stockpile on Gumroad">
+    <img src="./assets/gumroad.webp" width="50%" height="50%">
+</a>
 
 ## Demo
 
