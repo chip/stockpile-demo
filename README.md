@@ -1,7 +1,16 @@
 # Stockpile
 
-A terminal UI application for managing and tracking software packages on macOS.
-Linux support coming soon.
+A terminal UI application for managing and tracking software packages on macOS and Linux.
+
+Supports the following package managers:
+
+* [Homebrew](https://brew.sh) (macOS/Linux)
+* [apt](https://salsa.debian.org/apt-team/apt) (Debian/Ubuntu)
+* [dnf](https://github.com/rpm-software-management/dnf) (Fedora/RHEL)
+* [pacman](https://gitlab.archlinux.org/pacman/pacman) (Arch)
+* [Flatpak](https://flatpak.org)
+* [Snap](https://snapcraft.io)
+* System packages (software installed under `/bin`, `/usr/bin`, `/sbin`, `/usr/sbin`)
 
 ## Purchase
 
@@ -15,9 +24,18 @@ Linux support coming soon.
 
 ![Help with ? key](./assets/demo-help.gif)
 
-### Navigation with `j` and `k` keys
+### Vim-style navigation
 
-![Navigation with j and k keys](./assets/demo-nav.gif)
+Keys mappings:
+
+* `j` *down*
+* `k` *up*
+* `Ctrl-f` *down 10 lines*
+* `Ctrl-b` *up 10 lines*
+* `gg` *top*
+* `G` *bottom*
+
+![Vim-style navigation](./assets/demo-nav.gif)
 
 ### Filter package listing with `/`
 
@@ -144,6 +162,14 @@ Stockpile follows platform conventions for data storage:
 
 ## Debugging
 
+![Debugging demo](./assets/demo-debug.gif)
+
+### Environment Variables
+
+| Variable | Value | Description |
+|---|---|---|
+| `STOCKPILE_DEBUG` | `1` | Enable debug logging |
+
 Enable debug logging:
 
 ```bash
@@ -155,7 +181,7 @@ View debug logs:
 
 ```bash
 # Using the helper script (auto-detects OS)
-./bin/stockpile-debug-log
+stockpile-debug-log
 
 # Or manually with tail
 # macOS:
@@ -175,7 +201,7 @@ Debug logging captures:
 
 ## License
 
-see [LICENSE.txt](LICENSE.txt) file for details
+see **LICENSE.txt** file on Gumroad for details
 
 ## Author
 
