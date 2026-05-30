@@ -20,7 +20,7 @@ Supports the following package managers:
 
 ## Demo
 
-### Help with `?` key
+### Help with ? key
 
 ![Help with ? key](./assets/demo-help.gif)
 
@@ -37,33 +37,23 @@ Keys mappings:
 
 ![Vim-style navigation](./assets/demo-nav.gif)
 
-### Filter package listing with `/`
-
-* Type search term after forward slash.
+### Filter package listing with / (followed by search term)
 
 ![Filter package listing with /](./assets/demo-filter.gif)
 
-### View package details
-
-* Press `Enter` key for selected package.
+### View package details (Press Enter key for selected package)
 
 ![View package details](./assets/demo-details.gif)
 
-### Upgrade all brew packages with `r` key
-
-* Press `c` key to cancel upgrade.
+### Upgrade all brew packages with r key
 
 ![Upgrade all brew packages with r key](./assets/demo-upgrade-all.gif)
 
-### Upgrade single brew package with `U` key
+### Upgrade single brew package with U key (Use u key to check if new version is available)
 
-* The `u` key will check if a new package version is **available for update**.
+![Upgrade single brew package with U key (Use u key to check if new version is available)](./assets/demo-upgrade-package.gif)
 
-* The `U` key (`Shift-u`) is for **upgrading the package**.
-
-![Upgrade single brew package with U key](./assets/demo-upgrade-package.gif)
-
-### Run `brew info` from package details view
+### Run brew info from package details view
 
 ![Run brew info from package details view](./assets/demo-brew-info.gif)
 
@@ -71,7 +61,7 @@ Keys mappings:
 
 ![Uninstall brew package with x key](./assets/demo-uninstall.gif)
 
-### Rebuild package registry with `R` key
+### Rebuild package registry with R key
 
 ![Rebuild package registry with R key](./assets/demo-rebuild-registry.gif)
 
@@ -107,31 +97,23 @@ Keys mappings:
 ## Requirements
 
 - Ruby 3.0+
-- RatatuiRuby gem (1.4.1+)
+- RatatuiRuby gem (1.5+)
 
 ## Installation
 
-**AFTER LICENSE PURCHASE** (buy now button coming soon)
-
-### Quick Install
+Purchase a license from Gumroad and run the installer script included with your download:
 
 ```bash
-# Install dependencies
-bundle install
-
-# Make the executable runnable
-chmod +x bin/stockpile
-
-# Run the application
-./bin/stockpile
+chmod +x stockpile-install.sh
+./stockpile-install.sh
 ```
-
-For detailed installation options, see [INSTALL.md](INSTALL.md).
 
 ## Usage
 
-### Navigation
-- `j` / `k` / `↓` / `↑` - Move up/down in lists
+### Vim-style navigation
+- `j` / `k` - Move down/up in lists
+- `Ctrl-f` / `Ctrl-b` - Move down/up in lists (10 lines at a time)
+- `G` / `gg` - Move to bottom/top in lists
 - `Enter` - View package details
 - `Esc` / `Backspace` - Go back to list
 - `?` - Toggle help view
@@ -139,16 +121,21 @@ For detailed installation options, see [INSTALL.md](INSTALL.md).
 
 ### Package Management
 - `/` - Filter packages (type to search)
+- `M` - Search package descriptions
+- `s` - Sort package list by manager, install date, version, outdated, and name
+- `Space` - Mark package for bulk upgrade **(brew onlY)**
 - `u` - Check for updates on selected package
+- `v` - Detect version of selected package
 - `U` - Upgrade selected package
-- `r` - Check and upgrade all packages
 - `x` - Uninstall selected package
-- `i` - View brew info (in details view)
+- `r` - Check and upgrade all packages
 - `R` - Rebuild package registry
+- `e` - Export package registry
+- `i` - View brew info (in details view)
 
-## Data Storage
+## Data Locations
 
-Stockpile follows platform conventions for data storage:
+Stockpile stores data in OS-appropriate locations following platform conventions:
 
 **macOS:**
 - Registry: `~/Library/Application Support/Stockpile/registry.json`
@@ -162,19 +149,19 @@ Stockpile follows platform conventions for data storage:
 
 ## Debugging
 
-![Debugging demo](./assets/demo-debug.gif)
-
-### Environment Variables
-
-| Variable | Value | Description |
-|---|---|---|
-| `STOCKPILE_DEBUG` | `1` | Enable debug logging |
+![Debugging](./assets/demo-debug.gif)
 
 Enable debug logging:
 
 ```bash
 export STOCKPILE_DEBUG=1
-./bin/stockpile
+stockpile
+```
+
+Or try for single run of stockpile:
+
+```bash
+STOCKPILE_DEBUG=1 stockpile
 ```
 
 View debug logs:
@@ -199,9 +186,43 @@ Debug logging captures:
 - Performance metrics
 - Any errors or unexpected behavior
 
+## View last error
+
+```bash
+# Or manually with cat
+# macOS:
+cat ~/Library/Application Support/Stockpile/State/last_error.txt
+
+# Linux:
+cat ~/.local/state/stockpile/last_error.txt
+```
+
+## Platform-Specific Notes
+
+### macOS
+
+- Uses native macOS paths for installing stockpile (`~/Library/Application Support/`)
+- Homebrew detection requires `/opt/homebrew/Cellar` or `/usr/local/Cellar` installation
+- System packages scanned from `/bin`, `/usr/bin`, `/sbin`, and `/usr/sbin`
+
+### Linux
+
+- Follows XDG Base Directory Specification
+- Respects `XDG_DATA_HOME`, `XDG_STATE_HOME` environment variables
+- System packages scanned from `/bin`, `/usr/bin`, `/sbin`, and `/usr/sbin`
+
+## Getting Help
+
+If you encounter issues:
+
+1. See **Debugging** section. **Enable debug logging** and check the logs.
+2. **Review error messages** in `last_error.txt`
+3. **Try rebuilding registry** with `R` key or `stockpile-rescan`
+4. Contact support via email: support at chipcastle dot com
+
 ## License
 
-see **LICENSE.txt** file on Gumroad for details
+see LICENSE.txt on Gumroad for details.
 
 ## Author
 
